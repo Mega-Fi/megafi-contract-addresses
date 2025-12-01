@@ -8,42 +8,52 @@ Testnet contract addresses for the MegaFi DEX and ALM (Auto-LP) system on **mega
 
 | Name                                         | Address                                      |
 |----------------------------------------------|----------------------------------------------|
-| v3CoreFactoryAddress                         | `0x53e44884dBD88c378e11009c86AEd4cC2035005A` |
-| proxyAdminAddress                            | `0x0D40aB6DC0DB681c7B2EFE3588B4e90C18ee3419` |
-| nftDescriptorLibraryAddressV1_3_0            | `0x6372a8C87efAB962BeE0C5feC4f638F7f5b7C71e` |
-| nonfungibleTokenPositionDescriptorAddressV1_3_0 | `0x06f5DE7586071759a5e0eEBdECb5Cc30c877d057` |
-| descriptorProxyAddress                       | `0x11572c0554603a1923fFe3b48A74B4B29C283D82` |
-| nonfungibleTokenPositionManagerAddress       | `0x1b3888Fa266e0a13a0Fe7e6f5eC6a515A1A984bE` |
-| quoterV2Address                              | `0xB68288B6c22d16B462fD2fcA1ee191B5Ff6ff0A0` |
-| swapRouter02                                 | `0xFC77b12254EbA60c471012ebA1abFbf8d84c7514` |
+| v3CoreFactoryAddress                         | `0x9E36aAedf3A036D2acE0A9ad8e644112686e9934` |
+| swapRouter02                                 | `0x37cbb046e3e223F419a66311f59D8ffFCbed0B20` |
+| nonfungibleTokenPositionManagerAddress       | `0x02BC5ffB16DC5dD637C7c760780FEdB9e14a65E4` |
+| nonfungibleTokenPositionDescriptorAddressV1_3_0 | `0x4a88E0F8Baaa4c4BE04116122334564E5A4FA7Af` |
+| nftDescriptorLibraryAddressV1_3_0            | `0xe63Fc956Be0e16b51f1E92053DdbDe8D6D01b1cA` |
+| quoterV2Address                              | `0x102344fA16AE4cA43629Eac8148f03564333495E` |
 
 ## ALM Contracts
 
 | Name                   | Address                                      |
 |------------------------|----------------------------------------------|
-| CLTHelper              | `0x4294EBAbC57C2972baf2721792E626bc994462F9` |
-| CLTModules             | `0xC206de35Dc5Ac917a3F65fBcfBFaa77Cf8beb2A1` |
-| CLTTwapQuoter          | `0x707e857d5321BCb383f4728F74eAc2A5e36176f0` |
-| GovernanceFeeHandler   | `0xf88fcBd45257779F311a822af756b10014d1A67e` |
-| CLTBase (Main Vault)   | `0xba28A5c8eC0F29cDacAa724A9042DD9B7576bc57` |
-| Modes                  | `0x299f6237011C3f9B8B5cbFa948155562174ec294` |
-| RebaseModule           | `0x26a0B4b194D68c7938cF7B4fE3Dd26b320B5b434` |
+| CLTHelper              | `0x1996151DC8E6FD57e007e37756855f551A6E5254` |
+| CLTModules             | `0xeA57284bABadD71992722e824dFd44435fFD40aA` |
+| CLTTwapQuoter          | `0x7B45E59A064E6EEB0A6D959713355bdEC04DA1aC` |
+| GovernanceFeeHandler   | `0x30aE8303F92509CB4657B8a092A328A554DAD310` |
+| CLTBase (Main Vault)   | `0x2d3B96853fAf9218912b35314f8Ad63C3056536e` |
+| Modes                  | `0x8F278f10A8e90C9947a62Fe44d2B8686bB385B90` |
+| RebaseModule           | `0xD2d4F21Cf902a1169CE94d9Ba792e9e0057B1a97` |
 
 ## Libraries
 
 | Name            | Address                                      |
 |-----------------|----------------------------------------------|
-| PoolActions     | `0x59350E00596780d1aFeE4949B55DD2847FC69aab` |
-| Position        | `0xb69a004d258190764ceC2b478A48dCD646F45B21` |
-| StrategyFeeShares | `0xd04cF87C16f528DB05c8359c964B6f91F21a1749` |
-| TransferHelper  | `0x69B17D39962637eC38F79BE5aF2C791EEb78bA5c` |
-| UserPositions   | `0xc909c59e8577008526e0B1F5E8eF64bA5B94Df94` |
-| LiquidityShares | `0xa5135A36F499842679bA1153cBF03872105Cb9F1` |
+| PoolActions     | `0x78d09b36411e5c9F746412A899010847697b6b69` |
+| Position        | `0xeD49c608D9D98e92Cbefb031fef81Ffb1b4A7E53` |
+| TransferHelper  | `0xF8423ed11Ff596EAeDbFA743413C584bC611Ed14` |
+| UserPositions   | `0x4A7776A14A91d119622DF4209680978C5FA3c550` |
+| StrategyFeeShares | `0x84808eD7C61F56383dA58EdA20968A492f2A90b3` |
+| LiquidityShares | `0x1a3dB7820287334c900765cef92eA6a5937Fc353` |
 
-## Deployer & Tokens
+## Faucet
+
+| Name        | Address                                      |
+|-------------|----------------------------------------------|
+| TokenFaucet | `0x7FCC24B83d69fb39fE9843eb71D5bC02eE80DfFa` |
+
+## Tokens
+
+| Name   | Address                                      | Decimals |
+|--------|----------------------------------------------|----------|
+| WETH9  | `0x4200000000000000000000000000000000000006` | 18       |
+| MegaFi | `0x9C4725a1a20B30ea406854FE2098f4b654b93b05` | 18       |
+| USDm   | `0x6AF6037a499BbcF37976f4dd88a31A6C634f8070` | 6        |
+
+## Deployer
 
 | Name     | Address                                      |
 |----------|----------------------------------------------|
 | Deployer | `0x711eE890B41fFbd23Ba3c96975DEBDB1145cbB83` |
-| WETH9    | `0xa5C82dE4a62A4afD339A2dbAA1b6872143246E8E` |
-
