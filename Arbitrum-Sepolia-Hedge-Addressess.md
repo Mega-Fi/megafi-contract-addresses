@@ -35,10 +35,3 @@ Configuration addresses for the MegaFi system on **Arbitrum Sepolia Testnet**.
 | Strategy Call BTC       | `0xA48aD9F7EbC2e7b4D6BafA4F2E7C21739807710f` |
 | Strategy Put BTC        | `0xb2B0f4BdFE5aebD4E78611eB7B76be640d230a06` |
 
-## Faucets
-
-| Name                        | Address                                      |
-|-----------------------------|----------------------------------------------|
-| Arbitrum Sepolia Faucet     | `0x2770Ba51F4e1712E7B424c392cf157B42B17C739` |
-| MegaETH Testnet Faucet      | `0x7FCC24B83d69fb39fE9843eb71D5bC02eE80DfFa` |
-
