@@ -1,0 +1,2 @@
+ARBITRUM_SEPOLIA_DEX_SUBGRAPH_URL=https://api.studio.thegraph.com/query/1714774/megafi-arb-sepolia/version/latest
+ARBITRUM_SEPOLIA_ALM_SUBGRAPH_URL=https://api.studio.thegraph.com/query/40795/megafi-arbitrum-sepolia/version/latest
